@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(/images/international-airport-banner.webp);
+    background-color: rgb(243, 243, 243);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+/*  logo starts  */
+.Logo {
+    display: flex;
+    gap: .8rem;
+    padding: .6rem 2rem;
+    margin: 1.5rem 15rem;
+}
+
+.Logo img {
+    height: 70px;
+    width: 80px;
+}
+
+.Logo .Logo-Name {
+    margin-top: -1rem;
+    font-weight: 800;
+    color: rgb(49, 190, 222);
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+/*  logo starts  */
+
+/*  header starts  */
+.header ul {
+    display: flex;
+    gap: 1rem;
+    margin-top: .5rem;
+    margin-left: 16rem;
+}
+
+.header ul li {
+    list-style: none;
+}
+
+.header ul li a {
+    color: rgb(200, 199, 199);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 13.5px;
+    text-decoration: none;
+}
+
+.header:hover p {
+    cursor: pointer;
+}
+
+.Contact h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 36px;
+    margin-top: 4rem;
+    margin-left: 20rem;
+    color: white;
+}
+
+/*  header ends  */
+
+/*  main starts  */
+main .nav-links {
+    display: flex;
+    gap: 1.5rem;
+    padding: 4rem 0rem 0rem 10rem;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+main .nav-links:hover {
+    cursor: pointer;
+}
+
+main .Info {
+    background-color: #fff;
+    width: 1200px;
+    height: 800px;
+    margin-left: 10rem;
+}
+
+main .Info h1, h2 {
+    font-family: 'Roboto', sans-serif;
+    padding-top: 1.5rem;
+    text-align: center;
+    font-weight: 600;
+}
+
+main .Info p {
+    font-family: 'Roboto', sans-serif;
+    padding: 1rem 2rem;
+    font-weight: 600;
+    border-radius: 5px;
+    width: 1000px;
+    margin-left: 4rem;
+    line-height: 1.5rem;
+    background-color: rgb(235, 233, 233);
+}
+
+main .Info p:nth-last-of-type(7),
+.Info p:nth-last-of-type(1) {
+    background: none;
+    padding-left: 2rem;
+}
+
+main .Info a{
+    text-decoration: none;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+    padding: 1rem 6rem;
+    color: blue;
+}
+
+/*  main ends  */
+
+/*  footer starts  */
+footer {
+    background-color: rgb(241, 241, 241);
+    height: 700px;
+    margin-top: 4rem;
+}
+
+footer .Footer-Container {
+    display: flex;
+    gap: 12rem;
+    padding-top: 2rem;
+    padding-left: 10rem;
+}
+
+.Footer-Container article h5 {
+    font-size: 13.5px;
+    font-family: 'Roboto', sans-serif;
+}
+
+article p a {
+    font-size: 13.5px;
+    margin-top: .5rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    color: rgb(110, 110, 110);
+    text-decoration: none;
+}
+
+article p a:hover {
+    color: rgb(0, 51, 255);
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.Footer-Container:nth-last-of-type(1) {
+    margin-top: -1rem;
+}
+
+
+.Footer-Container:nth-last-child(2),
+.Footer-Container:nth-last-child(3) {
+    margin-top: -1rem;
+    border-bottom: 1px solid rgb(194, 194, 194);
+}
+
+.Footer-Container div h5 {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    margin-top: .5rem;
+}
+
+.Footer-Container div a img {
+    margin-top: -.5rem;
+    padding-bottom: .8rem;
+    width: 35px;
+    gap: 1rem;
+    margin-left: 2rem;
+}
+
+.Trademark {
+    text-align: center;
+    padding-top: .1rem;
+    padding-bottom: .5rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*  footer ends  */

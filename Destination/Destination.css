@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(233, 240, 255);
+    padding: 20px;
+}
+
+.destination-container {
+    margin: 20px auto;
+    width: 1000px;
+}
+
+.destination-container h1 {
+    margin-top: 0;
+    text-align: center;
+    color: rgb(33, 109, 215);
+}
+
+.destination-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.destination-card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 4px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+img {
+    width: 100%;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+h3 {
+    margin-top: 0;
+}
+
+.destination-card a {
+    width: 83%;
+    display: inline-block;
+    background-color: rgb(39, 95, 218);
+    color: #fff;
+    padding: 8px 16px;
+    text-decoration: none;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.destination-card a:hover {
+    background-color: rgb(61, 116, 234);
+    transition: background-color 0.3s ease;
+}

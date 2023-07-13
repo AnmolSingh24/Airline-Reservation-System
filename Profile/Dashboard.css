@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(/images/Dashboard-background.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 20px;
+}
+
+nav ul {
+    display: flex;
+    gap: 2.5rem;
+    list-style: none;
+    margin-top: -.5rem;
+    margin-left: -1rem;
+}
+
+nav ul li a {
+    font-weight: 700;
+    font-size: 14px;
+    cursor: none;
+    color: rgb(228, 228, 228);
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: none;
+    color: rgb(222, 255, 255);
+    cursor: pointer;
+}

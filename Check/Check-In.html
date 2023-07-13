@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blue Wing Airways - Hotel Booking</title>
+    <link rel="stylesheet" href="../Check/Check-In.css">
+    <link rel="Website Icon" type="png" href="/images/EliteAirways-logo.png">
+</head>
+
+<body>
+
+    <div class="booking-container">
+        <h1>Check-In/Out</h1>
+
+        <form id="booking-form" onsubmit="return bookHotel(event)">
+
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="bookingnumber">Firstname:</label>
+                    <input type="text" id="Firstname" name="Firstname" placeholder="Firstname" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="Lastname">Lastname:</label>
+                    <input type="text" id="Lastname" name="Lastname" placeholder="Lastname" required>
+                </div>
+            </div>
+
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="bookingnumber">Booking Number:</label>
+                    <input type="text" id="Booking-Number" name="Firstname" placeholder="Booking Number" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="Lastname">Flight Number:</label>
+                    <input type="text" id="Flight-Number" name="Flight-Number" placeholder="Flight Number" required>
+                </div>
+            </div>
+
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="check-in-date">Check-in Date:</label>
+                    <input type="date" id="check-in-date" name="check-in-date" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="check-out-date">Check-out Date:</label>
+                    <input type="date" id="check-out-date" name="check-out-date" required>
+                </div>
+            </div>
+
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="From">From:</label>
+                    <input type="time" id="From" name="From" min="10" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="room-type">To:</label>
+                    <input type="time" id="To" name="To" min="10" required>
+                </div>
+            </div>
+
+            <p class="booking-status"></p>
+            <button>Check-In</button>
+            <!-- <input type="submit" value="Ckeck-In"> -->
+        </form>
+    </div>
+
+    <script src="./Hotel.js"></script>
+</body>
+
+</html>
