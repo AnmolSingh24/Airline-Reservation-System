@@ -63,6 +63,8 @@ nav ul li a:hover {
 }
 
 .Ticket-Container .Select-Trip {
+    display: flex;
+    gap: 3rem;
     padding-top: 2rem;
     padding-left: 2rem;
     color: rgb(111, 111, 111);

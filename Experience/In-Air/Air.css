@@ -3,7 +3,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-image: url(/images/flight-banner.jpg);
+    background-image: url(/images/in-the-air-banner.webp);
     background-color: rgb(243, 243, 243);
     background-repeat: no-repeat;
     background-size: 100%;
@@ -15,6 +15,11 @@ body {
     gap: .8rem;
     padding: .6rem 2rem;
     margin: 1.5rem 15rem;
+}
+
+.Logo img {
+    height: 70px;
+    width: 80px;
 }
 
 .Logo .Logo-Name {
@@ -41,7 +46,7 @@ body {
 }
 
 .header ul li a {
-    color: rgb(104, 104, 104);
+    color: rgb(200, 199, 199);
     font-family: 'Roboto', sans-serif;
     font-weight: 600;
     font-size: 13.5px;
@@ -56,7 +61,7 @@ body {
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
     font-size: 36px;
-    margin-top: 2rem;
+    margin-top: 4rem;
     margin-left: 20rem;
     color: white;
 }
@@ -67,7 +72,7 @@ body {
 main .nav-links {
     display: flex;
     gap: 1.5rem;
-    padding: 2rem 0rem 0rem 10rem;
+    padding: 4rem 0rem 0rem 10rem;
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
 }
@@ -78,68 +83,76 @@ main .nav-links:hover {
 
 main .Info {
     background-color: #fff;
-    width: 1000px;
+    width: 1200px;
     height: 100%;
-    margin-top: 3rem;
-    margin-left: 15.5rem;
+    margin-left: 10rem;
 }
 
 main .Info h1 {
     font-family: 'Roboto', sans-serif;
-    text-align: center;
     padding-top: 1.5rem;
+    text-align: center;
+    font-weight: 600;
 }
 
 main .Info p {
     font-family: 'Roboto', sans-serif;
-    padding: 1rem 0rem 0rem 4rem;
-    line-height: 2rem;
+    padding-top: 1.5rem;
+    text-align: center;
 }
 
-.accordion {
-    background-color: #eee;
-    color: #444;
-    cursor: pointer;
-    padding: 18px;
-    margin-left: 3rem;
-    margin-bottom: 2rem;
-    width: 90%;
-    text-align: left;
-    font-weight: 600;
-    font-size: 16px;
-    border: none;
-    border-radius: 5px;
-    outline: none;
-    transition: 0.4s;
+main .Info .document1 {
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
 }
 
-.panel img,
-b {
-    margin-left: 3rem
+main .Info .document1 h1 {
+    padding-left: 7rem;
 }
 
-.active,
-.accordion:hover {
-    background-color: #ccc;
+main .Info .document1 .visa-info p {
+    font-weight: normal;
+    margin-top: 6rem;
+    margin-left: -26rem;
+    line-height: 2;
 }
 
-.active,
-.accordion:hover {
-    background-color: #ccc;
-}
-
-main div {
-    padding: 2rem;
-}
-
-.Info .panel,
-b {
+main .Info .document1 .visa-info a {
     font-family: 'Roboto', sans-serif;
-    padding: 0;
+    font-weight: 600;
+    margin-left: -25rem;
+    color: blue;
+    text-decoration: none;
 }
 
-.Info .panel p {
-    padding: 0rem;
+main .Info .document1 .visa-img {
+    margin: 3rem 2rem 0rem auto;
+}
+
+.visa-img2 {
+    display: flex;
+    margin: 1rem auto 0rem 2rem;
+    gap: 13rem;
+}
+
+main .Info .document2 {
+    margin-top: -3rem;
+    margin-bottom: 3rem;
+}
+
+main .Info .document2 .visa-info2 p {
+    font-weight: normal;
+    line-height: 2;
+}
+
+main .Info .document2 .visa-info2 a {
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    padding-left: 2rem;
+    color: blue;
+    text-decoration: none;
 }
 
 /*  main ends  */
@@ -148,7 +161,7 @@ b {
 footer {
     background-color: rgb(241, 241, 241);
     height: 700px;
-    margin-top: 3rem;
+    margin-top: 4rem;
 }
 
 footer .Footer-Container {
