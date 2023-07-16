@@ -113,9 +113,17 @@ main .Info p {
     transition: 0.4s;
 }
 
+.panel{
+    display: none;
+}
+
 .panel img,
 b {
     margin-left: 3rem
+}
+
+.active {
+    display: block;
 }
 
 .active,
@@ -163,7 +171,7 @@ footer .Footer-Container {
     font-family: 'Roboto', sans-serif;
 }
 
-article p a {
+article p, a {
     font-size: 13.5px;
     margin-top: .5rem;
     font-family: 'Roboto', sans-serif;

@@ -52,7 +52,7 @@ body {
     cursor: pointer;
 }
 
-.Contact h1 {
+header .Cop-Info h1 {
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
     font-size: 36px;
@@ -87,7 +87,7 @@ main .Info {
     margin-left: 15.5rem;
 }
 
-main .Info p{
+main .Info p {
     font-family: 'Roboto', sans-serif;
     padding-left: 4rem;
 }
@@ -97,7 +97,7 @@ main .Info h2 {
     padding: 1.5rem 4rem;
 }
 
-main .Info p{
+main .Info p {
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
     word-spacing: .3rem;
@@ -141,7 +141,7 @@ footer .Footer-Container {
     font-family: 'Roboto', sans-serif;
 }
 
-article p a {
+article p, a {
     font-size: 13.5px;
     margin-top: .5rem;
     font-family: 'Roboto', sans-serif;

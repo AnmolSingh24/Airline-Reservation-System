@@ -105,7 +105,7 @@ main .baggage-flex {
 
 main .baggage-flex .baggage-card {
     background-color: #fff;
-    height: 550px;
+    height: 470px;
 }
 
 main .baggage-flex .baggage-card h2 {
@@ -133,7 +133,7 @@ main .baggage-flex .baggage-card a {
 /*  footer starts  */
 footer {
     background-color: rgb(241, 241, 241);
-    height: 700px;
+    height: 650px;
     margin-top: 4rem;
 }
 
@@ -149,7 +149,7 @@ footer .Footer-Container {
     font-family: 'Roboto', sans-serif;
 }
 
-article p a {
+article p, a {
     font-size: 13.5px;
     margin-top: .5rem;
     font-family: 'Roboto', sans-serif;

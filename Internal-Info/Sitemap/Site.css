@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(/images/baggage-banner.webp);
+    background-color: rgb(243, 243, 243);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+/*  logo starts  */
+.Logo {
+    display: flex;
+    gap: .8rem;
+    padding: .6rem 2rem;
+    margin: 1.5rem 15rem;
+}
+
+.Logo img {
+    height: 70px;
+    width: 80px;
+}
+
+.Logo .Logo-Name {
+    margin-top: -1rem;
+    font-weight: 800;
+    color: rgb(49, 190, 222);
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+/*  logo starts  */
+
+/*  header starts  */
+.header ul {
+    display: flex;
+    gap: 1rem;
+    margin-top: .5rem;
+    margin-left: 16rem;
+}
+
+.header ul li {
+    list-style: none;
+}
+
+.header ul li a {
+    color: rgb(241, 239, 239);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 13.5px;
+    text-decoration: none;
+}
+
+.header:hover p {
+    cursor: pointer;
+}
+
+.Contact h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 36px;
+    margin-top: 4rem;
+    margin-left: 20rem;
+    color: white;
+}
+
+/*  header ends  */
+
+/*  main starts  */
+main .nav-links {
+    display: flex;
+    gap: 1.5rem;
+    padding: 4rem 0rem 0rem 10rem;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+main .nav-links:hover {
+    cursor: pointer;
+}
+
+main .info h1 {
+    font-family: 'Roboto', sans-serif;
+    padding-top: 1.5rem;
+    font-weight: 600;
+    margin-left: 10rem;
+}
+
+main .topics {
+    background-color: #fff;
+    width: 1200px;
+    height: 100%;
+    margin-left: 10rem;
+}
+
+main .topics a {
+    text-decoration: none;
+}
+
+main .topics a h2 {
+    color: black;
+    background-color: rgb(230, 230, 230);
+    font-family: 'Roboto', sans-serif;
+    padding: 10px;
+    font-weight: 600;
+    margin: 3rem 2rem 0rem 2rem;
+    border-radius: 5px;
+}
+
+main .topics a:hover {
+    background-color: gray;
+}
+
+main .topics ol,
+ul {
+    list-style: none;
+}
+
+main .topics ol li{
+    margin-top: 2.5rem;
+}
+
+main .topics ol li a b, b{
+    font-family: 'Roboto',sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    border-radius: 10px;
+    background-color: rgb(235, 250, 255);
+    padding: .8rem 60rem .8rem .5rem;
+    color: rgb(0, 0, 141);
+}
+
+main .topics ol li ul li a {
+    font-size: 15px;
+    color: rgb(52, 52, 255);
+    font-family: 'Roboto',sans-serif;
+    font-weight: 600;
+}
+
+main .topics ol li ul li a:hover{
+    background: none;
+}
+
+/*  main ends  */
+/*  footer starts  */
+footer {
+    background-color: rgb(241, 241, 241);
+    height: 650px;
+    margin-top: 4rem;
+}
+
+footer .Footer-Container {
+    display: flex;
+    gap: 12rem;
+    padding-top: 2rem;
+    padding-left: 10rem;
+}
+
+.Footer-Container article h5 {
+    font-size: 13.5px;
+    font-family: 'Roboto', sans-serif;
+}
+
+article p, a {
+    font-size: 13.5px;
+    margin-top: .5rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    color: rgb(110, 110, 110);
+    text-decoration: none;
+}
+
+article p a:hover {
+    color: rgb(0, 51, 255);
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.Footer-Container:nth-last-of-type(1) {
+    margin-top: -1rem;
+}
+
+
+.Footer-Container:nth-last-child(2),
+.Footer-Container:nth-last-child(3) {
+    margin-top: -1rem;
+    border-bottom: 1px solid rgb(194, 194, 194);
+}
+
+.Footer-Container div h5 {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    margin-top: .5rem;
+}
+
+.Footer-Container div a img {
+    margin-top: -.5rem;
+    padding-bottom: .8rem;
+    width: 35px;
+    gap: 1rem;
+    margin-left: 2rem;
+}
+
+.Trademark {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*  footer ends  */

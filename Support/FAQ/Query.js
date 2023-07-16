@@ -90,12 +90,23 @@ const data = [{
     link: "Learn More"
 }]
 
-// const printData = () => {
-//     let innerHTML = "";
-//     for (let i = 0; i < data.length; i++) {
-//         let innerhtml = `<p>${data[i].content}</p>`;
-//         innerHTML += innerhtml;        
-//     }
-//     result.innerHTML = innerHTML;
-// }
-// printData();
+const result = document.querySelector('.faq');
+
+const printData = () => {
+    let innerHTML = "";
+    for (let i = 0; i < data.length; i++) {
+        let innerhtml = `<div class="faq-items">
+        <div>
+            ${data[i].svg}
+            <p>${data[i].title}</p>
+        </div>
+        <div class="Info">
+            <p>${data[i].content}</p>
+            <a href="/">Learn More</a>
+        </div>
+    </div>`;
+        innerHTML += innerhtml;
+    }
+    result.innerHTML = innerHTML;
+}
+printData();

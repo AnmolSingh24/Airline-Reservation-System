@@ -86,9 +86,11 @@ main .nav-links ul {
 
 .faq {
     display: flex;
-    gap: 2rem;
+    flex-wrap: wrap;
+    gap: 1rem;
     padding-left: 8rem;
     margin-top: 2rem;
+    margin-left: -1.5rem
 }
 
 .faq p {
@@ -101,8 +103,8 @@ main .nav-links ul {
 
 .faq-items {
     display: flex;
+    padding: 1rem;
     flex-direction: column;
-    gap: .5rem;
     background-color: rgb(231, 246, 254);
     height: 280px;
     width: 400px;
@@ -110,6 +112,8 @@ main .nav-links ul {
 
 .faq-items div{
     display: flex;
+    gap: 1rem;
+    justify-content: start;
 }
 
 .faq-items:hover {
@@ -159,7 +163,7 @@ footer .Footer-Container {
     font-family: 'Roboto', sans-serif;
 }
 
-article p a{
+article p, a{
     font-size: 13.5px;
     margin-top: .5rem;
     font-family: 'Roboto', sans-serif;

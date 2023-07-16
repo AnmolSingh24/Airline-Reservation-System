@@ -6,7 +6,6 @@ body {
 
 .hotels-container {
     margin: 20px auto;
-    width: 800px;
 }
 
 .hotels-container h1 {
@@ -21,7 +20,15 @@ body {
     gap: 2rem;
 }
 
+.hotels-container .hotel-items{
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+
 .hotel-card {
+    width: 40%;
     display: flex;
     background-color: #fff;
     padding: 20px;

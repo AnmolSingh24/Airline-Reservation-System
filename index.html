@@ -30,19 +30,21 @@
         <nav>
             <ul>
                 <li><a href="/">HOME</a></li>
-                <li><a href="./Destination/Destination.html">DESTINATIONS</a></li>
-                <li><a href="./Hotels/Hotels.html">HOTELS</a></li>
-                <li><a href="./Check/Check-In.html">CHECK-IN</a></li>
-                <li><a href="/">MY TRIPS</a></li>
+                <li><a href="/Destination/Destination.html">DESTINATIONS</a></li>
+                <li><a href="/Hotels/Hotels.html">HOTELS</a></li>
+                <li><a href="/Check/Check-In.html">CHECK-IN</a></li>
+                <li><a href="/My-Trips/Trips.html">MY TRIPS</a></li>
                 <li><a href="/">FLIGHT STATUS</a></li>
-                <li><a href="./Travel/Travel-Info.html">TRAVEL INFO</a></li>
-                <li><a href="./Support/Help.html">SUPPORT</a></li>
+                <li><a href="/">TRAVEL INFO</a></li>
+                <li><a href="/Support/Help/Help.html">SUPPORT</a></li>
                 <li><a href="/">LOGIN</a></li>
                 <li><a href="/">SIGN UP</a></li>
-                <li><a href="./Profile/Dashboard.html"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                <li><a href="/Profile/Dashboard.html"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
                             fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
                             <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3Zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z" />
-                        </svg></a></li>
+                        </svg>
+                    </a>
+                </li>
             </ul>
         </nav>
         <!--  navbar ends  -->
@@ -55,7 +57,7 @@
         <script>
             $(document).ready(function () {
                 $('.carousel').carousel({
-                    interval: 1500 // Change this to change the autoplay interval in milliseconds
+                    interval: 1500
                 })
             });
         </script>
@@ -128,13 +130,13 @@
             <div class="Concession">
                 <select name="Concession">
                     <option value="Concession-Types">None</option>
-                    <option value="">Armed Forces</option>
-                    <option value="">Bravery Awardee</option>
-                    <option value="">Para Military Force</option>
-                    <option value="">Student</option>
-                    <option value="">Senior Citizens</option>
-                    <option value="">War Widow</option>
-                    <option value="">War Disabled Officer</option>
+                    <option value="Armed Forces">Armed Forces</option>
+                    <option value="Bravery Awardee">Bravery Awardee</option>
+                    <option value="Para Military Force">Para Military Force</option>
+                    <option value="Student">Student</option>
+                    <option value="Senior Citizens">Senior Citizens</option>
+                    <option value="War Widow">War Widow</option>
+                    <option value="War Disabled Officer">War Disabled Officer</option>
                 </select>
 
                 <a href="/">Check Eligibility</a>
@@ -142,7 +144,7 @@
                 <div class="promocode">
                     <h4>Add promocode</h4>
                     <div>
-                        <svg style="color:rgb(33, 109, 215);" xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                        <svg style="color:blue;" xmlns="http://www.w3.org/2000/svg" width="20" height="20"
                             fill="currentColor" class="bi bi-info-circle" viewBox="0 0 16 16">
                             <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
                             <path
@@ -162,16 +164,28 @@
             <h4>From booking services to help in travel plans, you can expect a lot along your journey.</h4>
             <div class="travel-img">
                 <img src="/images/generous-baggage.webp" alt="" height="400px">
+                <div class="btn">
+                    <a href="/Travel/Baggage/Baggage.html">Learn More</a>
+                    <p>Generous Baggage Rule . Pack More, Stress Less.</p>
+                </div>
                 <div>
                     <img src="/images/before-you-fly.webp" alt="" height="190px" width="500px">
+                    <div class="btn">
+                        <a href="/Travel/Documents/Visa.html">Learn More</a>
+                        <p>Before you Fly: Everything you need to prepare <br> for a smooth journey</p>
+                    </div>
                     <br>
                     <img src="/images/airport-information.webp" alt="" height="195px" width="500px">
+                    <div class="btn">
+                        <a href="/Travel/Baggage/Baggage.html">Learn More</a>
+                        <p>Airport Information</p>
+                    </div>
                 </div>
             </div>
 
             <div class="Info">
                 <div class="Info-Name">
-                    <p><a href="/Press/Media.html">Latest News</a></p>
+                    <p><a href="/About/Press/Media.html">Latest News</a></p>
                 </div>
 
                 <div class="Info-Items">
@@ -209,7 +223,7 @@
                 </div>
 
                 <div class="Info-Name">
-                    <p><a href="/Support/Help.html">Contact</a></p>
+                    <p><a href="/Support/Help/Help.html">Contact</a></p>
                 </div>
                 <div class="Info-Items">
                     <svg xmlns="http://www.w3.org/2000/svg" width="38" height="30" fill="currentColor"
@@ -269,6 +283,7 @@
                 <h5>BLUE WING EXPERIENCE</h5>
                 <p><a href="/Experience/At-Airport/Information.html">At The Airport</a></p>
                 <p><a href="/Experience/In-Air/Air.html">In The Air</a></p>
+                <p><a href="/Fly/Our-Fleets/Fleet.html">Our Fleets</a></p>
             </article>
 
             <article>
@@ -286,21 +301,20 @@
         <hr>
         <div class="Footer-Container">
             <article>
-                <p><a href="">Sitemap</a></p>
-                <p><a href="">Terms & Conditions</a></p>
-                <p><a href="">Privacy Policy</a></p>
+                <p><a href="/Internal-Info/Sitemap/Site.html">Sitemap</a></p>
+                <p><a href="/Internal-Info/Terms & Conditions/Terms.html">Terms & Conditions</a></p>
+                <p><a href="/Internal-Info/Privacy Policy/Policy.html">Privacy Policy</a></p>
             </article>
 
             <article>
-                <p><a href="/">Cookie Policy</a></p>
-                <p><a href="/">Conditions of Carriage</a></p>
-                <p><a href="/">Domestic Fares</a></p>
+                <p><a href="/Internal-Info/Cookie Policy/Policy.html">Cookie Policy</a></p>
+                <p><a href="/Internal-Info/Conditions & Carriage/Carriage.html">Conditions of Carriage</a></p>
+                <p><a href="/Internal-Info/Domestic Fares/Fares.html">Domestic Fares</a></p>
             </article>
 
             <article>
-                <p><a href="/">Travel Agents</a></p>
-                <p><a href="/">GST</a></p>
-                <p><a href="/">Passenger Charter</a></p>
+                <p><a href="/Internal-Info/Travel Agents/Agents.html">Travel Agents</a></p>
+                <p><a href="/Internal-Info/Passenger Charter/Charter.html">Passenger Charter</a></p>
             </article>
 
             <!--  social links starts  -->
@@ -319,6 +333,9 @@
             <p>Copyright © 2023 Blue Wing Ltd</p>
             <p>All rights reserved. Use of this website indicates your compliance with our Privacy Policy, Conditions of
                 Carriage, Terms and Conditions.</p>
+        </div>
+        <div class="ownership">
+            <p>Designed with ❤️ by<span> Anmol Singh</span></p>
         </div>
     </footer>
     <!--  footer ends  -->

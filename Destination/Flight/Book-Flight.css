@@ -59,7 +59,7 @@ select {
     outline: none;
 }
 
-input[type="submit"] {
+button {
     width: 50%;
     display: inline-block;
     background-color: rgb(39, 95, 218);
