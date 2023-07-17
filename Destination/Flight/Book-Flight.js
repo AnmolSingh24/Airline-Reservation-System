@@ -4,8 +4,8 @@ function addTrip(e) {
 
     var fullname = document.getElementById('fullname').value;
     var email = document.getElementById('email').value;
-    var departureDate = new Date(document.getElementById('departure-date').value);
-    var returnDate = new Date(document.getElementById('return-date').value);
+    var departureDate = document.getElementById('departure-date').value;
+    var returnDate = document.getElementById('return-date').value;
     var from = document.getElementById('from').value;
     var to = document.getElementById('to').value;
     var adult = document.getElementById('adult').value;
