@@ -21,7 +21,7 @@ function addTrip(e) {
         adult: adult,
         child: child
     }
-
+    console.log(trip);
     var holiday = [];
     var holiday = JSON.parse(localStorage.getItem("trip")) || [];
     console.log(JSON.stringify(holiday))
@@ -31,13 +31,3 @@ function addTrip(e) {
     alert("✅ Flight Booked Successfully!");
     window.location = "/index.html"
 }
-
-// function showTrips() {
-//     var trips = JSON.parse(localStorage.getItem("trip")) || [];
-//     console.log(trips);
-//     for (let i = 0; i < trips.length; i++) {
-//         console.log(trips[i]);
-//         var tripItem = document.createElement("div");
-//         tripItem.innerHTML = "<br> <br>" + trips[i].fullname;
-//     }
-// }
