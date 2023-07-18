@@ -29,18 +29,15 @@ function bookHotel(e) {
     hotel.push(book);
     console.log(JSON.stringify(hotel));
     localStorage.setItem("book", JSON.stringify(hotel));
-    // window.location = "/index.html"  //redirect to main dashboard page
-
-
-    // reset form
-    document.getElementById('booking-form').reset();
 
     document.querySelector(".hotel-status").style.visibility = "visible";
-
     setTimeout(() => {
         document.querySelector(".hotel-status").style.visibility = "hidden";
     }, 4000);
     document.getElementById("booking-form")
         .insertAdjacentElement("beforeend", html);
+
+    // reset form
+    document.getElementById('booking-form').reset();
     return false;
 }
