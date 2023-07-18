@@ -33,13 +33,13 @@ function bookHotel(e) {
 
 
     // reset form
-    // document.getElementById('booking-form').reset();
+    document.getElementById('booking-form').reset();
 
     document.querySelector(".hotel-status").style.visibility = "visible";
 
     setTimeout(() => {
         document.querySelector(".hotel-status").style.visibility = "hidden";
-    }, 3000);
+    }, 4000);
     document.getElementById("booking-form")
         .insertAdjacentElement("beforeend", html);
     return false;

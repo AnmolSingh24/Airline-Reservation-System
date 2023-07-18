@@ -1,16 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
 body {
     font-family: Arial, sans-serif;
     background-color: rgb(233, 240, 255);
     background-image: url(/images/Hotel-Background.jpg);
     background-repeat: no-repeat;
-    background-size: 155%;
+    background-size: 168%;
     padding: 20px;
 }
 
 .booking-container {
     margin: 20px auto;
     width: 600px;
-    height: 480px;
+    height: 500px;
     background-color: #fff;
     padding: 20px;
     margin-top: 3rem;
@@ -52,11 +54,20 @@ label {
 
 input[type="date"],
 input[type="text"],
-input[type="time"],
-select {
+input[type="time"] {
     width: 93%;
     height: 18px;
     padding: 12px;
+    border: 1px solid #dbdbdb;
+    border-radius: 4px;
+    cursor: pointer;
+    outline: none;
+}
+
+select {
+    width: 100%;
+    height: 18px;
+    padding: 21px;
     border: 1px solid #dbdbdb;
     border-radius: 4px;
     cursor: pointer;
@@ -85,9 +96,8 @@ input[type="submit"]:hover {
     cursor: pointer;
 }
 
-.hotel-status{
-    visibility: hidden;
+.hotel-status {
     text-align: center;
-    width: 200px;
+    visibility: hidden;
     color: green;
 }

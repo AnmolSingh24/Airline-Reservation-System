@@ -35,18 +35,20 @@ const hotelData = [{
     price: "$250 per night"
 }];
 
-const hotelItems = document.querySelector('.hotel-card');
+const hotelItems = document.querySelectorAll('.hotel-items');
 const showHotel = () => {
 
     let hotel = "";
     for (let i = 0; i < hotelData.length; i++) {
         let innerHTML = `<div class="hotel-items">
+        <div class="hotel-cards">
         <img src="${hotelData[i].img}">
         <div class="hotel-details">
             <h3>${hotelData[i].title}</h3>
             <p><b>Location: </b>${hotelData[i].location}</p>
             <p><b>Price: </b>${hotelData[i].price}</p>
             <a href="/Hotels/BookHotel/Book-Hotel.html">Learn More</a>
+        </div>
         </div>
     </div>`;
         hotel += innerHTML;
