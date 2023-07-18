@@ -29,9 +29,18 @@ function bookHotel(e) {
     hotel.push(book);
     console.log(JSON.stringify(hotel));
     localStorage.setItem("book", JSON.stringify(hotel));
-    alert("✅ Hotel Booked Successfully!");
-    window.location = "/index.html"
+    // window.location = "/index.html"  //redirect to main dashboard page
 
-    document.getElementById('booking-form').reset();
+
+    // reset form
+    // document.getElementById('booking-form').reset();
+
+    document.querySelector(".hotel-status").style.visibility = "visible";
+
+    setTimeout(() => {
+        document.querySelector(".hotel-status").style.visibility = "hidden";
+    }, 3000);
+    document.getElementById("booking-form")
+        .insertAdjacentElement("beforeend", html);
     return false;
 }

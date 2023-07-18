@@ -84,3 +84,10 @@ input[type="submit"]:hover {
     box-shadow: 1px 3px 8px 1px darkgray;
     cursor: pointer;
 }
+
+.hotel-status{
+    visibility: hidden;
+    text-align: center;
+    width: 200px;
+    color: green;
+}
