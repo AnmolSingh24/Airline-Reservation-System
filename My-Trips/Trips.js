@@ -10,24 +10,24 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
     if (trips) {
-        document.getElementById('fullname').textContent = 'Fullname: ' + trips[0].fullname;
-        document.getElementById('email').textContent = 'Email: ' + trips[0].email;
-        document.getElementById('departure-date').textContent = 'Departure Date: ' + trips[0].departureDate;
-        document.getElementById('return-date').textContent = 'Return Date: ' + trips[0].returnDate;
-        document.getElementById('from').textContent = 'From: ' + trips[0].from;
-        document.getElementById('to').textContent = 'To: ' + trips[0].to;
-        document.getElementById('adult').textContent = 'Adult: ' + trips[0].adult;
-        document.getElementById('child').textContent = 'Child: ' + trips[0].child;
+        document.getElementById('fullname').innerHTML = '<b>Fullname: </b>' + trips[0].fullname;
+        document.getElementById('email').innerHTML = '<b>Email: </b>' + trips[0].email;
+        document.getElementById('departure-date').innerHTML = '<b>Departure Date: </b>' + trips[0].departureDate;
+        document.getElementById('return-date').innerHTML = '<b>Return Date: </b>' + trips[0].returnDate;
+        document.getElementById('from').innerHTML = '<b>From: </b>' + trips[0].from;
+        document.getElementById('to').innerHTML = '<b>To: </b>' + trips[0].to;
+        document.getElementById('adult').innerHTML = '<b>Adult: </b>' + trips[0].adult;
+        document.getElementById('child').innerHTML = '<b>Child: </b>' + trips[0].child;
         console.log(trips);
         console.log(trips[i]);
     } else {
-        document.getElementById('fullname').textContent = 'Fullname: N/A';
-        document.getElementById('email').textContent = 'Email: N/A';
-        document.getElementById('departure-date').textContent = 'Departure Date: N/A';
-        document.getElementById('return-date').textContent = 'Return Date: N/A';
-        document.getElementById('from').textContent = 'From: N/A';
-        document.getElementById('to').textContent = 'To: N/A';
-        document.getElementById('adult').textContent = 'Adult: N/A';
-        document.getElementById('child').textContent = 'Child: N/A';
+        document.getElementById('fullname').innerHTML = 'Fullname: N/A';
+        document.getElementById('email').innerHTML = 'Email: N/A';
+        document.getElementById('departure-date').innerHTML = 'Departure Date: N/A';
+        document.getElementById('return-date').innerHTML = 'Return Date: N/A';
+        document.getElementById('from').innerHTML = 'From: N/A';
+        document.getElementById('to').innerHTML = 'To: N/A';
+        document.getElementById('adult').innerHTML = 'Adult: N/A';
+        document.getElementById('child').innerHTML = 'Child: N/A';
     }
 });
