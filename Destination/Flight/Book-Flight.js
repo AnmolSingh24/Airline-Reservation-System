@@ -28,6 +28,15 @@ function addTrip(e) {
     holiday.push(trip);
     console.log(JSON.stringify(holiday));
     localStorage.setItem("trip", JSON.stringify(holiday));
-    alert("✅ Flight Booked Successfully!");
-    window.location = "/index.html"
+
+    document.querySelector(".flight-status").style.visibility = "visible";
+    setTimeout(() => {
+        document.querySelector(".flight-status").style.visibility = "hidden";
+    }, 4000);
+    document.getElementById("booking-form")
+        .insertAdjacentElement("beforeend", html);
+
+    // reset form
+    document.getElementById("booking-form").reset();
+    return false;
 }
