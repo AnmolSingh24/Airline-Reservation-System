@@ -10,14 +10,14 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
     if (trips) {
-        document.getElementById('fullname').innerHTML = '<b>Fullname: </b>' + trips[0].fullname;
-        document.getElementById('email').innerHTML = '<b>Email: </b>' + trips[0].email;
-        document.getElementById('departure-date').innerHTML = '<b>Departure Date: </b>' + trips[0].departureDate;
-        document.getElementById('return-date').innerHTML = '<b>Return Date: </b>' + trips[0].returnDate;
-        document.getElementById('from').innerHTML = '<b>From: </b>' + trips[0].from;
-        document.getElementById('to').innerHTML = '<b>To: </b>' + trips[0].to;
-        document.getElementById('adult').innerHTML = '<b>Adult: </b>' + trips[0].adult;
-        document.getElementById('child').innerHTML = '<b>Child: </b>' + trips[0].child;
+        document.getElementById('fullname').innerHTML = '<b>Fullname : </b>' + trips[0].fullname;
+        document.getElementById('email').innerHTML = '<b>Email : </b>' + trips[0].email;
+        document.getElementById('departure-date').innerHTML = '<b>Departure Date : </b>' + trips[0].departureDate;
+        document.getElementById('return-date').innerHTML = '<b>Return Date : </b>' + trips[0].returnDate;
+        document.getElementById('from').innerHTML = '<b>From : </b>' + trips[0].from;
+        document.getElementById('to').innerHTML = '<b>To : </b>' + trips[0].to;
+        document.getElementById('adult').innerHTML = '<b>Adult : </b>' + trips[0].adult;
+        document.getElementById('child').innerHTML = '<b>Child : </b>' + trips[0].child;
         console.log(trips);
         console.log(trips[i]);
     } else {
