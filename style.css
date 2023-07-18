@@ -256,16 +256,13 @@ main .prepare-travel-container {
 aside {
     margin-top: 30rem;
     margin-left: 85rem;
-    /* position: relative; */
 }
 
 aside div img {
     height: 120px;
-    mix-blend-mode: multiply;
     background-color: rgb(49, 190, 222);
-    padding: 15px;
+    box-shadow: 2px 5px 8px gray;
     border-radius: 50%;
-    /* position: absolute; */
 }
 
 aside div img:hover {
@@ -328,9 +325,12 @@ article p:hover {
     margin-left: 2rem;
 }
 
-.Trademark {
+.Trademark p{
     text-align: center;
-    padding-top: .8rem;
+    padding-top: .1rem;
+    font-weight: normal;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
 }
 
 .ownership {
