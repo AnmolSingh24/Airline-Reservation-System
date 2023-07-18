@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', function () {
         document.getElementById('adult').textContent = 'Adult: ' + trips[0].adult;
         document.getElementById('child').textContent = 'Child: ' + trips[0].child;
         console.log(trips);
-        console.log(trips[0]);
+        console.log(trips[i]);
     } else {
         document.getElementById('fullname').textContent = 'Fullname: N/A';
         document.getElementById('email').textContent = 'Email: N/A';
