@@ -1,6 +1,7 @@
 const signSubmit = document.getElementById("form").addEventListener('submit', SignUpRegister)
 
-function SignUpRegister() {
+function SignUpRegister(e) {
+    e.preventDefault();
     var signUpFirstname = document.getElementById('Firstname').value;
     var signUpLastname = document.getElementById('Lastname').value;
     var signUpUsername = document.getElementById('Username').value;
@@ -51,7 +52,7 @@ function SignUpRegister() {
     }
 
     else
-        SignUpRegister();
+        SignUpRegister(e);
 };
 
 function SignUpRegister() {
