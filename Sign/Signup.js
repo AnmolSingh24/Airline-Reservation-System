@@ -78,6 +78,5 @@ function SignUpRegister() {
     }, 4000);
     document.getElementById("#form")
         .insertAdjacentElement("beforeend", html);
-
-    // return false;
+    return false;
 }
