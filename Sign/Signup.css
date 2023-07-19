@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(/images/login-signup-banner.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.signup-container {
+    margin: 20px auto;
+    width: 500px;
+    height: 355px;
+    background-color: #fff;
+    opacity: 0.8;
+    padding: 20px;
+    margin-top: 3rem;
+    margin-left: 2rem;
+    border-radius: 4px;
+}
+
+.signup-container h1 {
+    font-family: 'Roboto', sans-serif;
+    margin-top: 0;
+    text-align: center;
+    color: rgb(33, 109, 215);
+}
+
+.form-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    margin-top: 1rem;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    color: rgb(33, 109, 215);
+}
+
+label {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 90%;
+    height: 18px;
+    padding: 12px;
+    border: 1px solid #dbdbdb;
+    border-radius: 4px;
+    cursor: pointer;
+    outline: none;
+}
+
+button[type="submit"] {
+    width: 50%;
+    display: inline-block;
+    background-color: rgb(39, 95, 218);
+    text-align: center;
+    color: #fff;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 10px 20px;
+    margin: -.5rem 7.3rem;
+    text-decoration: none;
+    border: none;
+    border-radius: 4px;
+}
+
+button[type="submit"]:hover {
+    background-color: rgb(61, 116, 234);
+    transition: background-color 0.3s ease;
+    box-shadow: 1px 3px 8px 1px darkgray;
+    cursor: pointer;
+}
+
+.signup-status {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 16px;
+    visibility: hidden;
+    color: green;
+}
