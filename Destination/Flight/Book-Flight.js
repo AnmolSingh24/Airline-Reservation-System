@@ -1,5 +1,5 @@
-document.getElementById('booking-form').addEventListener('submit', addTrip)
-function addTrip(e) {
+document.getElementById('booking-form').addEventListener('submit', addFlight)
+function addFlight(e) {
     e.preventDefault();
 
     var fullname = document.getElementById('fullname').value;
@@ -11,7 +11,7 @@ function addTrip(e) {
     var adult = document.getElementById('adult').value;
     var child = document.getElementById('child').value;
 
-    const trip = {
+    const flightTrip = {
         fullname: fullname,
         email: email,
         departureDate: departureDate,
@@ -21,13 +21,16 @@ function addTrip(e) {
         adult: adult,
         child: child
     }
-    console.log(trip);
+    console.log(flightTrip);
     var holiday = [];
-    var holiday = JSON.parse(localStorage.getItem("trip")) || [];
+    var holiday = JSON.parse(localStorage.getItem("flightTrip")) || [];
     console.log(JSON.stringify(holiday))
-    holiday.push(trip);
+    holiday.push(flightTrip);
     console.log(JSON.stringify(holiday));
-    localStorage.setItem("trip", JSON.stringify(holiday));
+    localStorage.setItem("flightTrip", JSON.stringify(holiday));
+
+    // reset form
+    document.getElementById("booking-form").reset();
 
     document.querySelector(".flight-status").style.visibility = "visible";
     setTimeout(() => {
@@ -36,7 +39,5 @@ function addTrip(e) {
     document.getElementById("booking-form")
         .insertAdjacentElement("beforeend", html);
 
-    // reset form
-    document.getElementById("booking-form").reset();
     return false;
 }

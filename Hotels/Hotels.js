@@ -40,14 +40,15 @@ const showHotel = () => {
 
     let hotel = "";
     for (let i = 0; i < hotelData.length; i++) {
-        let innerHTML = `<div class="hotel-card">
-        <img src="${hotelData[i].img}">
-        <div class="hotel-details">
-            <h3>${hotelData[i].title}</h3>
-            <p><b>Location: </b>${hotelData[i].location}</p>
-            <p><b>Price: </b>${hotelData[i].price}</p>
-            <a href="/Hotels/BookHotel/Book-Hotel.html">Learn More</a>
-        </div>
+        let innerHTML = `
+        <div class="hotel-card">
+          <img src="${hotelData[i].img}">
+            <div class="hotel-details">
+              <h3>${hotelData[i].title}</h3>
+              <p><b>Location: </b>${hotelData[i].location}</p>
+              <p><b>Price: </b>${hotelData[i].price}</p>
+              <a href="/Hotels/BookHotel/Book-Hotel.html">Learn More</a>
+            </div>
         </div>`;
         hotel += innerHTML;
     }

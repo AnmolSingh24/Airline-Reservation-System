@@ -1,7 +1,6 @@
 
 document.addEventListener('DOMContentLoaded', function () {
-    var trips = JSON.parse(localStorage.getItem('trip'));
-    console.log(trips);
+    var trips = JSON.parse(localStorage.getItem('flightTrip'));
 
     for (let i = 0; i < trips.length; i++) {
         console.log(trips[i]);
@@ -18,8 +17,6 @@ document.addEventListener('DOMContentLoaded', function () {
         document.getElementById('to').innerHTML = '<b>To : </b>' + trips[0].to;
         document.getElementById('adult').innerHTML = '<b>Adult : </b>' + trips[0].adult;
         document.getElementById('child').innerHTML = '<b>Child : </b>' + trips[0].child;
-        console.log(trips);
-        console.log(trips[i]);
     } else {
         document.getElementById('fullname').innerHTML = 'Fullname: N/A';
         document.getElementById('email').innerHTML = 'Email: N/A';
