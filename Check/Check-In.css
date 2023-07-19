@@ -1,15 +1,16 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: rgb(233, 240, 255);
-    background-image: url(/images/Book-Flight-banner.jpg);
-    padding: 20px;
+    background-image: url(/images/check-in-banner.jpg);
+    background-repeat: no-repeat;
+    background-size: 109%;
 }
 
 .booking-container {
     margin: 20px auto;
-    width: 600px;
-    height: 520px;
+    width: 400px;
+    height: 500px;
     background-color: #fff;
+    opacity: .8;
     padding: 20px;
     margin-top: 3rem;
     margin-left: 2rem;
@@ -32,19 +33,21 @@ form {
 }
 
 .form-row {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 2rem;
+    grid-template-columns: 2fr 1fr;
     margin-top: 1rem;
 }
 
 .form-group {
-    display: flex;
-    flex-direction: column;
+    margin-bottom: 1rem;
     color: rgb(33, 109, 215);
 }
 
+.form-group p{
+    padding-left: 3rem;
+}
+
 label {
+    padding-left: 3rem;
     font-weight: bold;
 }
 
@@ -52,8 +55,10 @@ input[type="date"],
 input[type="text"],
 input[type="time"],
 select {
-    width: 93%;
+    width: 70%;
     padding: 12px;
+    margin-top: .3rem;
+    margin-left: 3rem;
     border: 1px solid #dbdbdb;
     border-radius: 4px;
     outline: none;
@@ -69,7 +74,7 @@ button {
     font-weight: 600;
     font-size: 16px;
     padding: 10px 20px;
-    margin: 1rem 9rem;
+    margin: -1rem auto;
     text-decoration: none;
     border: none;
     border-radius: 4px;
