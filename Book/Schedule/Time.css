@@ -91,6 +91,7 @@ main .Info h1 {
 }
 
 main .Info .way input {
+    font-family: 'Roboto',sans-serif;
     margin-top: 1rem;
     margin-left: 18rem;
 }
@@ -98,24 +99,24 @@ main .Info .way input {
 main .Info .date input {
     margin-top: 1rem;
     padding: 1rem 11rem;
-    margin: 1rem 0rem 0rem 1rem;
+    margin: 1rem 0rem 0rem 1.3rem;
     outline: none;
 }
 
 main .Info .destination input {
     margin-top: 1rem;
     padding: .9rem 7.8rem;
-    margin: 1rem 0rem 0rem 1rem;
+    margin: 1rem 0rem 0rem 1.3rem;
     text-align: center;
     font-size: 17px;
     outline: none;
 }
 
-main .Info .btn{
+main .Info .btn {
     margin-left: 38rem;
 }
 
-main .Info .btn button{
+main .Info .btn button {
     padding: .8rem 3rem;
     margin: 2.5rem 0rem 0rem 1rem;
     text-align: center;
@@ -125,15 +126,22 @@ main .Info .btn button{
     color: rgb(33, 33, 33);
 }
 
-main .Info .btn button:nth-last-of-type(1){
+main .Info .btn button:hover {
+    background-color: rgb(190, 189, 189);
+    transition: .3s;
+    cursor: pointer;
+}
+
+main .Info .btn button:nth-last-of-type(1) {
     color: white;
     outline: none;
     border: none;
-    background-color: rgb(1, 142, 189);
+    background-color: blue;
 }
 
-main .Info .btn button:nth-last-of-type(1):hover{
-    background-color: rgb(3, 170, 226);
+main .Info .btn button:nth-last-of-type(1):hover {
+    background-color: rgb(46, 112, 254);
+    transition: .3s;
     cursor: pointer;
 }
 
@@ -158,7 +166,8 @@ footer .Footer-Container {
     font-family: 'Roboto', sans-serif;
 }
 
-article p, a {
+article p,
+a {
     font-size: 13.5px;
     margin-top: .5rem;
     font-family: 'Roboto', sans-serif;
