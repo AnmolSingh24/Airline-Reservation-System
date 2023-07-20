@@ -44,7 +44,7 @@ nav ul li a:hover {
 .profile-images .profile {
     width: 100px;
     height: 100px;
-    border: 2px solid rgb(38, 38, 38);
+    border: 1px solid rgb(38, 38, 38);
     border-radius: 50%;
     margin-top: -3.6rem;
     margin-left: -.5rem;
