@@ -16,50 +16,63 @@
 
         <!-- <div id="trips-container"></div> -->
 
-        <form id="form">
+        <form id="form" method="post">
 
             <div class="form-row">
                 <div class="form-group">
-                    <label for="Firstname">Firstname</label>
-                    <input type="text" id="Firstname" name="Firstname" placeholder="Firstname" required>
+                    <label for="firstname">Firstname</label>
+                    <input type="text" id="firstname" name="firstname" autocomplete="off" placeholder="Firstname"
+                        required>
                 </div>
 
                 <div class="form-group">
-                    <label for="Lastname">Lastname</label>
-                    <input type="text" id="Lastname" name="Lastname" placeholder="Lastname" required>
+                    <label for="lastname">Lastname</label>
+                    <input type="text" id="lastname" name="lastname" autocomplete="off" placeholder="Lastname" required>
                 </div>
             </div>
 
             <div class="form-row">
                 <div class="form-group">
-                    <label for="Username">Username</label>
-                    <input type="text" id="Username" name="Username" placeholder="Username" required>
+                    <label for="username">Username</label>
+                    <input type="text" id="username" name="username" autocomplete="off" placeholder="Username" required>
                 </div>
 
                 <div class="form-group">
                     <label for="email">Email</label>
-                    <input type="email" id="email" name="email" placeholder="Email" required>
+                    <input type="email" id="email" name="email" autocomplete="off" placeholder="Email" required>
+                    <p id="email-error"></p>
                 </div>
             </div>
 
             <div class="form-row">
                 <div class="form-group">
                     <label for="password">Password</label>
-                    <input type="password" id="password" name="password" placeholder="Password" required>
+                    <input type="password" id="password" name="password" autocomplete="off" placeholder="Password"
+                        required>
+
                 </div>
 
                 <div class="form-group">
                     <label for="confirm-password">Confirm Password</label>
-                    <input type="password" id="confirm-password" name="confirm-password" placeholder="Confirm Password"
-                        required>
+                    <input type="password" id="confirm-password" name="confirm-password" autocomplete="off"
+                        placeholder="Confirm Password" required>
+
                 </div>
+            </div>
+
+            <div class="errors">
+                <p id="username-error"></p>
+                <p id="email-error"></p>
+                <p id="password-error"></p>
+                <p id="confirm-password-error"></p>
             </div>
 
             <p class="signup-status">Signup Successful!</p>
 
-            <button type="submit">Signup</button>
-
-            <p id="account">Already have an account?<a href=""> Login</a></p>
+            <div class="btn">
+                <button type="submit">Signup</button>
+                <p id="account">Already have an account?<a href=""> Login</a></p>
+            </div>
         </form>
     </div>
 
