@@ -28,7 +28,7 @@ nav ul {
     gap: 2.5rem;
     list-style: none;
     margin-top: -2.1rem;
-    margin-left: 21rem;
+    margin-left: 28rem;
 }
 
 nav ul li a {
@@ -43,6 +43,52 @@ nav ul li a:hover {
     cursor: pointer;
 }
 
+.chats-info-dropdown {
+    margin-top: .2rem;
+    margin-left: auto;
+    margin-right: 1rem;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+}
+
+.chats-info-dropdown .dropdown-content {
+    height: 120px;
+    width: 175px;
+    margin-top: -.1rem;
+    margin-left: -9rem;
+    flex-direction: column;
+    display: none;
+    gap: .5rem;
+    color: black;
+    font-weight: 600;
+    background-color: #efeded;
+    position: absolute;
+    border-radius: 5px;
+}
+
+.chats-info-dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-info {
+    padding: 5px 0px 0px 15px;
+    margin: .5rem;
+    border-bottom: 1px solid rgb(215, 213, 213);
+}
+
+.dropdown-info:hover {
+    background-color: #d6d5d5;
+}
+
+.dropdown-info a {
+    font-weight: 600;
+    color: black;
+}
+
+.dropdown-info a:hover {
+    color: black;
+}
 /*  navbar ends  */
 /*  header ends*/
 

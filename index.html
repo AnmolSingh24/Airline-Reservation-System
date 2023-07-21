@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blue Wing Airways</title>
     <link rel="Website Icon" type="png" href="/images/EliteAirways-logo.png">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -15,9 +15,7 @@
 </head>
 
 <body>
-
     <!--  header starts  -->
-
     <header>
         <div class="Logo">
             <img src="./images/EliteAirways-logo.png" alt="EliteAirways-logo-Img" width="30px" height="25px">
@@ -38,11 +36,23 @@
                 <li><a href="/Tour/Tour.html">TOUR INFO</a></li>
                 <li><a href="/Support/Help/Help.html">SUPPORT</a></li>
                 <li><a href="/Sign/Signup.html">SIGN UP</a></li>
-                <li><a href="/Profile/Dashboard.html"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                <li>
+                    <div class="chats-info-dropdown">
+                        <svg style="color: rgb(4, 114, 249);" xmlns="http://www.w3.org/2000/svg" width="20" height="20"
                             fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
                             <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3Zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z" />
                         </svg>
-                    </a>
+
+                        <div class="dropdown-content">
+                            <div class="dropdown-info">
+                                <a href="/Profile/Dashboard.html">Your Profile</a>
+                            </div>
+
+                            <div class="dropdown-info">
+                                <a href="/Support/Help/Help.html">Contact</a>
+                            </div>
+                        </div>
+                    </div>
                 </li>
             </ul>
         </nav>
