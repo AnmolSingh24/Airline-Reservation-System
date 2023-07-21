@@ -3,7 +3,6 @@ body {
     background-image: url(/images/Dashboard-background.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
-    padding: 20px;
 }
 
 nav ul {
@@ -12,6 +11,7 @@ nav ul {
     list-style: none;
     margin-top: -.5rem;
     margin-left: -1rem;
+    padding-top: 20px;
 }
 
 nav ul li a {
@@ -35,10 +35,10 @@ nav ul li a:hover {
 
 #sidebar-info {
     background-color: rgb(198, 216, 234);
-    width: 350px;
+    width: 320px;
     height: 570px;
     border-radius: 10px;
-    margin: .5rem 0rem 0rem 3rem;
+    margin: .5rem 0rem 0rem 9.2rem;
 }
 
 .profile-images .profile {
@@ -52,7 +52,7 @@ nav ul li a:hover {
 }
 
 .profile-images .background {
-    width: 350px;
+    width: 320px;
     height: 150px;
     border-radius: 10px;
     border-top-left-radius: 10px;
@@ -71,4 +71,25 @@ nav ul li a:hover {
     padding: 6px;
     border-radius: 30%;
     cursor: pointer;
+}
+
+#sidebar-info p:nth-last-of-type(1){
+    color: black;
+    font-weight: 600;
+    margin-top: -.8rem;
+}
+
+#sidebar-info p:nth-last-of-type(2){
+    font-weight: 600;
+    margin-top: 1rem;
+    color: rgb(0, 0, 169);
+}
+
+#more-details {
+    background-color: rgb(198, 216, 234);
+    width: 900px;
+    height: 568px;
+    border-radius: 10px;
+    margin: -35.5rem 9.2rem 0rem auto;
+    overflow: hidden;
 }
