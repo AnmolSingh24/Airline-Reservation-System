@@ -290,7 +290,7 @@ footer .Footer-Container {
 }
 
 article p a,
-p {
+article p {
     font-size: 13.5px;
     margin-top: .5rem;
     font-weight: 600;
@@ -325,27 +325,17 @@ article p:hover {
     margin-left: 2rem;
 }
 
-.Trademark p{
+.trademark {
     text-align: center;
-    padding-top: .1rem;
-    font-weight: normal;
     font-size: 15px;
     font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    padding-top: .8rem;
+    padding-bottom: .5rem;
 }
 
-.ownership {
-    background-color: rgb(0, 0, 97);
-}
-
-.ownership p {
-    font-size: 15px;
-    color: rgb(214, 212, 212);
-    text-align: center;
-    padding-bottom: 2px;
-}
-
-.ownership p span {
-    color: #fff;
+.trademark p {
+    margin-bottom: 0;
 }
 
 /*  footer ends  */
