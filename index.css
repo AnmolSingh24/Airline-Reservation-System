@@ -120,7 +120,7 @@ nav ul li a:hover {
 .Concession {
     display: flex;
     gap: 5rem;
-    margin: 8.5rem 2.5rem;
+    margin: 8.5rem 0rem 0rem 2rem;
 }
 
 .Concession .promocode {
@@ -133,15 +133,7 @@ nav ul li a:hover {
     cursor: pointer;
 }
 
-.Concession a {
-    margin-top: .3rem;
-    margin-left: -4rem;
-    text-decoration: underline;
-    color: blue;
-}
-
 .Concession h4 {
-    margin-left: 10rem;
     color: blue;
 }
 
@@ -158,11 +150,11 @@ nav ul li a:hover {
     color: white;
     padding: 13px 20px;
     margin-top: -.5rem;
-    margin-left: 2rem;
+    margin-left: -3rem;
 }
 
 .Concession button:hover {
-    background-color: rgb(7, 74, 220);
+    background-color: rgb(40, 107, 253);
     cursor: pointer;
     outline: none;
     transition: .3s;
@@ -179,7 +171,7 @@ main .prepare-travel-container {
 }
 
 .prepare-travel-container h4 {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     color: gray;
 }
 
