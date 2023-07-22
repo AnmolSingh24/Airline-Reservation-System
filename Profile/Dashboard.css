@@ -82,7 +82,7 @@ nav ul li a:hover {
 #sidebar-info p:nth-last-of-type(2){
     font-weight: 600;
     margin-top: 1rem;
-    color: rgb(0, 0, 169);
+    color: black;
 }
 
 #more-details {
