@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
     console.log(trips);
 
     for (let i = 0; i < trips.length; i++) {
-        console.log(trips[i]);
+        // console.log(trips[i]);
         var tripItem = document.createElement("div");
         tripItem.innerHTML = "<br>" + trips[i].fullname;
     }
@@ -18,8 +18,6 @@ document.addEventListener('DOMContentLoaded', () => {
         document.getElementById('to').innerHTML = '<b>To : </b>' + trips[0].to;
         document.getElementById('adult').innerHTML = '<b>Adult : </b>' + trips[0].adult;
         document.getElementById('child').innerHTML = '<b>Child : </b>' + trips[0].child;
-        console.log(trips);
-        console.log(trips[i]);
     } else {
         document.getElementById('fullname').innerHTML = 'Fullname: N/A';
         document.getElementById('email').innerHTML = 'Email: N/A';
@@ -35,26 +33,24 @@ document.addEventListener('DOMContentLoaded', () => {
 
 //  Hotel Details
 document.addEventListener('DOMContentLoaded', () => {
-    var hotel = JSON.parse(localStorage.getItem('bookHotel'));
+    var hotel = JSON.parse(localStorage.getItem('book'));
     console.log(hotel);
 
     for (let i = 0; i < hotel.length; i++) {
-        console.log(hotel[i]);
+        // console.log(hotel[i]);
         var hotelItem = document.createElement("div");
         hotelItem.innerHTML = "<br>" + hotel[i].firstname;
     }
 
-    if (book) {
-        document.getElementById('fullname').innerHTML = '<b>Fullname : </b>' + hotel[0].firstname;
+    if (hotel) {
+        document.getElementById('firstname').innerHTML = '<b>Firstname : </b>' + hotel[0].firstname;
         document.getElementById('lastname').innerHTML = '<b>Lastname : </b>' + hotel[0].lastname;
         document.getElementById('check-in-date').innerHTML = '<b>Check-In-Date : </b>' + hotel[0].checkInDate;
-        document.getElementById('check-out-date').innerHTML = '<b>Check-Out-Date : </b>' + trips[0].checkOutDate;
+        document.getElementById('check-out-date').innerHTML = '<b>Check-Out-Date : </b>' + hotel[0].checkOutDate;
         document.getElementById('from').innerHTML = '<b>From : </b>' + hotel[0].from;
         document.getElementById('to').innerHTML = '<b>To : </b>' + hotel[0].to;
         document.getElementById('num-guests').innerHTML = '<b>Number of Guests : </b>' + hotel[0].numGuests;
         document.getElementById('room-type').innerHTML = '<b>Room Type : </b>' + hotel[0].roomType;
-        // console.log(hotel);
-        // console.log(hotel[i]);
     } else {
         document.getElementById('fullname').innerHTML = 'Firstname: N/A';
         document.getElementById('lastname').innerHTML = 'Lastname: N/A';

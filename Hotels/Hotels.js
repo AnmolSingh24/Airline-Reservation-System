@@ -47,7 +47,7 @@ const showHotel = () => {
               <h3>${hotelData[i].title}</h3>
               <p><b>Location: </b>${hotelData[i].location}</p>
               <p><b>Price: </b>${hotelData[i].price}</p>
-              <a href="/Hotels/BookHotel/Book-Hotel.html">Learn More</a>
+              <a href="/">View Info</a>
             </div>
         </div>`;
         hotel += innerHTML;

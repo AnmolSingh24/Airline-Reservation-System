@@ -21,14 +21,15 @@ body {
 }
 
 .hotels-container .hotel-items {
-    display: flex;
-    gap: 2rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     justify-content: center;
     align-items: center;
+    margin-left: 2.5rem;
 }
 
 .hotel-card {
-    width: 40%;
+    width: 90%;
     display: flex;
     background-color: #fff;
     padding: 20px;
