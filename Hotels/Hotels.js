@@ -52,7 +52,6 @@ const showHotel = () => {
         </div>`;
         hotel += innerHTML;
     }
-    // hotelItems.innerHTML = hotel;
     hotelItems.forEach((element) => {
         element.innerHTML = hotel;
     });
