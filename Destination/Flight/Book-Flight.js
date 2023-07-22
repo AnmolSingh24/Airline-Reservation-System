@@ -32,12 +32,11 @@ function addFlight(e) {
     // reset form
     document.getElementById("booking-form").reset();
 
-    document.querySelector(".flight-status").style.visibility = "visible";
+    var msg = document.getElementById("snackbar");
+    msg.className = "show";
     setTimeout(() => {
-        document.querySelector(".flight-status").style.visibility = "hidden";
+        msg.className = msg.className.replace("show", "");
     }, 4000);
-    document.getElementById("booking-form")
-        .insertAdjacentElement("beforeend", html);
 
     return false;
 }
