@@ -150,7 +150,7 @@ main .Info .document2 .visa-info2 a {
 /*  footer starts  */
 footer {
     background-color: rgb(241, 241, 241);
-    height: 700px;
+    height: 600px;
     margin-top: 4rem;
 }
 
@@ -168,7 +168,7 @@ footer .Footer-Container {
 
 article p, a {
     font-size: 13.5px;
-    margin-top: .5rem;
+    margin-top: -.2rem;
     font-family: 'Roboto', sans-serif;
     font-weight: 600;
     color: rgb(110, 110, 110);
@@ -185,7 +185,6 @@ article p a:hover {
     margin-top: -1rem;
 }
 
-
 .Footer-Container:nth-last-child(2),
 .Footer-Container:nth-last-child(3) {
     margin-top: -1rem;
@@ -195,11 +194,11 @@ article p a:hover {
 .Footer-Container div h5 {
     text-align: center;
     font-family: 'Roboto', sans-serif;
-    margin-top: .5rem;
+    margin-top: -.3rem;
 }
 
 .Footer-Container div a img {
-    margin-top: -.5rem;
+    margin-top: -.3rem;
     padding-bottom: .8rem;
     width: 35px;
     gap: 1rem;

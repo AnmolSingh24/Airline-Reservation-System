@@ -200,9 +200,8 @@ main .prepare-travel-container {
 }
 
 .prepare-travel-container .travel-img a:hover {
-    cursor: pointer;
     transition: .8s;
-    background: rgb(45, 84, 214);
+    background-color: rgb(45, 84, 214);
     color: #fff;
 }
 
@@ -222,7 +221,7 @@ main .prepare-travel-container {
 
 .prepare-travel-container .travel-img div .btn a:hover {
     transition: .8s;
-    background: rgb(45, 84, 214);
+    background-color: rgb(45, 84, 214);
 }
 
 .prepare-travel-container .travel-img div .btn p {
