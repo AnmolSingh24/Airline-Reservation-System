@@ -21,13 +21,13 @@ body {
     gap: 20px;
     justify-content: center;
     align-items: center;
-    margin-top: 3rem;
+    margin-top: 2rem;
 }
 
 .destination-card {
     width: 200px;
     background-color: #fff;
-    padding: 20px;
+    padding: 10px;
     border-radius: 4px;
 }
 
@@ -38,26 +38,30 @@ body {
 
 img {
     width: 100%;
-    border-radius: 4px;
-    margin-bottom: 10px;
+    border-radius: 5px;
+    margin-bottom: 8px;
 }
 
 h3 {
     margin-top: 0;
-}
-
-.destination-card a {
-    width: 83%;
-    display: inline-block;
-    background-color: rgb(39, 95, 218);
-    color: #fff;
-    padding: 8px 16px;
-    text-decoration: none;
-    border-radius: 4px;
     text-align: center;
 }
 
-.destination-card a:hover {
-    background-color: rgb(61, 116, 234);
+.destination-card button {
+    width: 100%;
+    display: inline-block;
+    background-color: blue;
+    color: #fff;
+    padding: 10px 12px;
+    text-decoration: none;
+    border-radius: 4px;
+    text-align: center;
+    border: none;
+    font-weight: 600;
+}
+
+.destination-card button:hover {
+    background-color: rgb(28, 98, 250);
     transition: background-color 0.3s ease;
+    cursor: pointer;
 }
