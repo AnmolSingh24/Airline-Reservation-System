@@ -4,19 +4,19 @@ const destinationData = [{
     info: "India has many customs and rituals that may seem bizarre to anyone."
 },
 {
-    img: `/images/Destination-Img2.jpg`,
-    title: "New York",
-    info: "Experience the vibrant atmosphere of the Big Apple."
+    img: `/images/Destination-Img2.jpeg`,
+    title: "South Korea",
+    info: " Known for its technological advancements, K-pop culture, and historic sites."
 },
 {
     img: `/images/Destination-Img3.jpg`,
-    title: "London",
-    info: "Discover the historic landmarks and cultural treasures of London."
+    title: "UAE",
+    info: "Known for its modern skyscrapers,iconic landmarks like Burj Khalifa."
 },
 {
-    img: `/images/Destination-Img4.webp`,
-    title: "Paris",
-    info: "Indulge in the romantic ambiance and artistic delights of Paris."
+    img: `/images/Destination-Img4.jpg`,
+    title: "Greece",
+    info: "Know for its ancient history, picturesque island and santorini's sunsets."
 },
 {
     img: `/images/Destination-Img5.jpg`,
@@ -24,9 +24,9 @@ const destinationData = [{
     info: "Experience the bustling metropolis and rich cultural heritage."
 },
 {
-    img: `/images/Destination-Img6.avif`,
-    title: "Dubai",
-    info: "Dubai is a destination that mixes modern culture with history."
+    img: `/images/Destination-Img6.webp`,
+    title: "Netherlands",
+    info: "Known for its tulip fields, charming canals, and cultural landmarks."
 },
 {
     img: `/images/Destination-Img7.jpg`,
