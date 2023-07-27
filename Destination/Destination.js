@@ -99,6 +99,8 @@ const destinationData = [{
     info: "Famous for its stunning landscapes, adventure sports, Maori culture."
 }]
 
+destinationData.sort((a, b) => a.title.localeCompare(b.title));
+
 const place = document.querySelectorAll('.destination-grid');
 const showPlace = () => {
 
