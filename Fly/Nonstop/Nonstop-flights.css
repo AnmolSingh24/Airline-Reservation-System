@@ -113,13 +113,18 @@ main .Info p {
     transition: 0.4s;
 }
 
-.panel{
+.panel {
     display: none;
 }
 
-.panel img,
-b {
-    margin-left: 3rem
+.panel img {
+    margin-left: 2rem;
+}
+
+b,
+p {
+    font-family: 'Roboto', sans-serif;
+    margin-left: -2rem;
 }
 
 .active {
@@ -161,7 +166,8 @@ footer .Footer-Container {
     font-family: 'Roboto', sans-serif;
 }
 
-.Footer-Container article p, a {
+.Footer-Container article p,
+a {
     font-size: 13.5px;
     margin-top: .5rem;
     font-family: 'Roboto', sans-serif;
