@@ -1,5 +1,6 @@
 
-document.addEventListener('DOMContentLoaded', function () {
+document.addEventListener('DOMContentLoaded', (e) => {
+    e.preventDefault();
     var trips = JSON.parse(localStorage.getItem('flightTrip'));
 
     for (let i = 0; i < trips.length; i++) {

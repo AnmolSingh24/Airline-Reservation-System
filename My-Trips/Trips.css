@@ -65,15 +65,20 @@ body {
 
 /*  main starts  */
 #trip-info {
+    display: flex;
     background-color: #fff;
-    width: 500px;
+    width: 1000px;
     height: 100%;
-    margin: 8rem auto 0rem auto;
-    border-radius: 10px;
-    box-shadow: 1px 5px 5px gray;
+    margin: 1rem auto 0rem auto;
+    padding: 2rem;
+    box-shadow: 1px 2px 3px gray;
 }
 
-#trip-info h1 {
+#trip-info div {
+    margin-left: -4rem;
+}
+
+main h1 {
     font-family: 'Roboto', sans-serif;
     color: blue;
     padding: 2rem 0rem 2rem 0rem;
