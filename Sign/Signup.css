@@ -99,16 +99,6 @@ input[type="password"] {
     margin: 0;
 }
 
-/*.signup-status {
-    font-family: 'Roboto', sans-serif;
-    text-align: center;
-    font-size: 15px;
-    visibility: hidden;
-    color: green;
-    margin: -1rem;
-    padding: 0;
-} */
-
 #snackbar {
     visibility: hidden;
     min-width: 250px;
@@ -183,8 +173,17 @@ input[type="password"] {
 
 #form #account {
     font-family: 'Roboto', sans-serif;
-    font-size: 13px;
     text-align: center;
     text-decoration: none;
     padding: 0;
+}
+
+#form #account a {
+    color: blue;
+    text-decoration: none;
+}
+
+#form #account a:hover {
+    text-decoration: underline;
+    text-decoration-color: blue;
 }
