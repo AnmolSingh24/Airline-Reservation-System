@@ -88,7 +88,7 @@ main .Info h1 span {
     padding: 20px;
 }
 
-#about h2 {
+#about h2, h3 {
     font-family: 'Roboto', sans-serif;
 }
 
@@ -122,7 +122,7 @@ main .Info h1 span {
 .feature h3 {
     color: #333;
     margin-bottom: 10px;
-    font-family: 'Roboto',sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 .feature p {
@@ -134,8 +134,7 @@ main .Info h1 span {
 /*  footer starts  */
 footer {
     background-color: rgb(241, 241, 241);
-    height: 700px;
-    margin-top: 3rem;
+    height: 600px;
 }
 
 footer .Footer-Container {
@@ -150,18 +149,18 @@ footer .Footer-Container {
     font-family: 'Roboto', sans-serif;
 }
 
-article p, a {
+article p a,
+article p {
     font-size: 13.5px;
-    margin-top: .5rem;
-    font-family: 'Roboto', sans-serif;
+    margin-top: 1rem;
     font-weight: 600;
     color: rgb(110, 110, 110);
+    font-family: 'Roboto', sans-serif;
     text-decoration: none;
 }
 
-article p a:hover {
+article p:hover {
     color: rgb(0, 51, 255);
-    text-decoration: underline;
     cursor: pointer;
 }
 
@@ -169,22 +168,18 @@ article p a:hover {
     margin-top: -1rem;
 }
 
-
 .Footer-Container:nth-last-child(2),
 .Footer-Container:nth-last-child(3) {
-    margin-top: -1rem;
+    margin-top: -3rem;
     border-bottom: 1px solid rgb(194, 194, 194);
 }
 
-.Footer-Container div h5 {
+.Footer-Container div {
     text-align: center;
     font-family: 'Roboto', sans-serif;
-    margin-top: .5rem;
 }
 
 .Footer-Container div a img {
-    margin-top: -.5rem;
-    padding-bottom: .8rem;
     width: 35px;
     gap: 1rem;
     margin-left: 2rem;
@@ -192,9 +187,15 @@ article p a:hover {
 
 .Trademark {
     text-align: center;
-    padding-top: .1rem;
-    padding-bottom: .5rem;
+    font-size: 15px;
     font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    padding-top: .8rem;
+    padding-bottom: .8rem;
+}
+
+.Trademark p {
+    margin: 0;
 }
 
 /*  footer ends  */

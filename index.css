@@ -279,21 +279,12 @@ main .prepare-travel-container {
     color: white;
     cursor: pointer;
 }
-
-/* .Info-Name{
-    margin-top: 15rem;
-    margin-left: -14.4rem;
-}
-
-.Info-Name:nth-last-of-type(7){
-    margin-left: -13.6rem;
-} */
 /*  info ends  */
 /*  main ends */
 
 /*  aside starts  */
 aside {
-    margin-top: 30rem;
+    margin-top: -5rem;
     margin-left: 85rem;
 }
 
@@ -313,8 +304,7 @@ aside div img:hover {
 /*  footer starts  */
 footer {
     background-color: rgb(241, 241, 241);
-    height: 620px;
-    margin-top: -34rem;
+    height: 600px;
 }
 
 footer .Footer-Container {
@@ -364,7 +354,7 @@ article p:hover {
     margin-left: 2rem;
 }
 
-.trademark {
+.Trademark {
     text-align: center;
     font-size: 15px;
     font-family: 'Roboto', sans-serif;
@@ -373,7 +363,7 @@ article p:hover {
     padding-bottom: .5rem;
 }
 
-.trademark p {
+.Trademark p {
     margin-bottom: 0;
 }
 

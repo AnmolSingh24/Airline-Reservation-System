@@ -130,8 +130,7 @@ p {
 /*  footer starts  */
 footer {
     background-color: rgb(241, 241, 241);
-    height: 700px;
-    margin-top: 3rem;
+    height: 600px;
 }
 
 footer .Footer-Container {
@@ -143,22 +142,18 @@ footer .Footer-Container {
 
 .Footer-Container article h5 {
     font-size: 13.5px;
-    font-family: 'Roboto', sans-serif;
 }
 
 article p a,
-p {
+article p {
     font-size: 13.5px;
     margin-top: .5rem;
-    font-family: 'Roboto', sans-serif;
     font-weight: 600;
     color: rgb(110, 110, 110);
-    text-decoration: none;
 }
 
-article p a:hover {
+article p:hover {
     color: rgb(0, 51, 255);
-    text-decoration: underline;
     cursor: pointer;
 }
 
@@ -169,19 +164,17 @@ article p a:hover {
 
 .Footer-Container:nth-last-child(2),
 .Footer-Container:nth-last-child(3) {
-    margin-top: -1rem;
+    margin-top: -3rem;
     border-bottom: 1px solid rgb(194, 194, 194);
 }
 
 .Footer-Container div h5 {
     text-align: center;
-    font-family: 'Roboto', sans-serif;
-    margin-top: .5rem;
+    padding-top: .7rem;
 }
 
 .Footer-Container div a img {
-    margin-top: -.5rem;
-    padding-bottom: .8rem;
+    padding-top: .5rem;
     width: 35px;
     gap: 1rem;
     margin-left: 2rem;
@@ -189,9 +182,15 @@ article p a:hover {
 
 .Trademark {
     text-align: center;
-    padding-top: .1rem;
-    padding-bottom: .5rem;
+    font-size: 15px;
     font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    padding-top: .8rem;
+    padding-bottom: .5rem;
+}
+
+.Trademark p {
+    margin-bottom: 0;
 }
 
 /*  footer ends  */
