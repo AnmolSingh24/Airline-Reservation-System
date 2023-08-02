@@ -4,6 +4,10 @@ body {
     padding: 20px;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 .destination-container {
     margin: 20px auto;
     width: 1000px;
@@ -30,6 +34,9 @@ body {
     background-color: #fff;
     padding: 10px;
     border-radius: 4px;
+    opacity: 0;
+    transform: translateX(0%);
+    transition: opacity 0.8s ease, transform 0.8s ease;
 }
 
 .destination-card:hover {
