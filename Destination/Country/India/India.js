@@ -143,3 +143,33 @@ const showCity = () => {
     });
 }
 showCity();
+
+$(document).ready(function () {
+    animateCardsOnLoad();
+
+    $(window).on("scroll", function () {
+        animateCardsOnScroll();
+    });
+});
+
+function animateCardsOnLoad() {
+    $(".cities-card").each(function (index) {
+        $(this).delay(200 * index).animate({
+            opacity: 1,
+            transform: "translateY(0)"
+        }, 400);
+    });
+}
+
+function animateCardsOnScroll() {
+    $(".cities-card").each(function () {
+        const cardTop = $(this).offset().top;
+        const windowBottom = $(window).scrollTop() + $(window).height();
+        if (cardTop < windowBottom) {
+            $(this).animate({
+                opacity: 1,
+                transform: "translateY(0)"
+            }, 400);
+        }
+    });
+}
