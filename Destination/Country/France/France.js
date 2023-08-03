@@ -16,12 +16,12 @@ const citiesData = [{
 {
     img: `/images/France4.jpg`,
     title: "Chamonix-Mont-Blanc",
-    info: "Known for its stunning alpine landscapes, mountaineering enthusiasts."
+    info: "Known for its stunning alpine landscapes, mountaineering peoples."
 },
 {
     img: `/images/France5.jpg`,
     title: "Dijon",
-    info: "Renowned for its mustard production and former capital of Duchy of Burgundy."
+    info: "Renowned for its mustard production, former capital of Duchy of Burgundy."
 },
 {
     img: `/images/France6.jpg`,
