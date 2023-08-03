@@ -81,13 +81,14 @@ main .info h1 {
 
 main .info .search {
     margin-top: 3rem;
-    margin-left: 10rem;
+    margin-left: 11.5rem;
 }
 
 main .info .search input,
 button {
     padding: 20px 80px;
     margin-left: 1rem;
+    border: 1px solid darkgray;
     outline: none;
 }
 
@@ -109,10 +110,11 @@ main .info .search #search-btn:hover {
 }
 
 .latest-news .news {
-    background-color: #fff;
+    background-color: #f3f3f3;
     width: 1000px;
-    padding: 10px;
+    padding: 10px 0px 2px 25px;
     margin-top: 1rem;
+    border-radius: 10px;
 }
 
 .latest-news .news b,
@@ -123,6 +125,8 @@ p {
 .latest-news .news:hover {
     cursor: pointer;
     box-shadow: 1px 3px 10px gray;
+    transition: .3s;
+    transform: scale(1.03);
 }
 
 /*  main ends  */
