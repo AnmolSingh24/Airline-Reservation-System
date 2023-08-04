@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-image: url(/images/login-signup-banner.jpg);
+    background-size: 100%;
+    margin-left: 5rem;
+}
+
+button {
+    font-family: inherit;
+    border: 0;
+    background: none;
+    cursor: pointer;
+}
+
+.container {
+    margin: 20px auto;
+    width: 500px;
+    height: 380px;
+    background-color: #fff;
+    padding: 5px;
+    margin-top: 10.5rem;
+    margin-left: 5rem;
+    border-radius: 10px;
+    margin-inline: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    width: 300px;
+    text-align: center;
+    margin-inline: auto;
+}
+
+.content h1 {
+    color: rgb(33, 109, 215);
+    margin-block: 5px;
+}
+
+.email-log-in {
+    width: 100%;
+    position: relative;
+    margin-top: 1.5rem;
+}
+
+.email-log-in input {
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid #333639;
+    outline: none;
+    padding: 10px 10px;
+    margin-bottom: 10px;
+    color: black;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+
+input+label {
+    position: absolute;
+    top: 12px;
+    left: 10px;
+    color: #313131;
+    font-size: 12px;
+    pointer-events: none;
+    transition: 200ms ease;
+}
+
+.forget-pwd a {
+    padding-right: 10rem;
+    text-decoration: none;
+    color: blue;
+}
+
+.forget-pwd a:hover {
+    text-decoration: underline;
+    color: blue;
+}
+
+.action-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin-top: 20px;
+}
+
+.divider {
+    width: 100%;
+    margin-block: 15px;
+    position: relative;
+    color: black;
+}
+
+.divider p::before,
+.divider p::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 45%;
+    height: 1px;
+    background-color: #333639;
+}
+
+.divider p::before {
+    left: 0;
+}
+
+.divider p::after {
+    right: 0;
+}
+
+.primary-button {
+    width: 100%;
+    border-radius: 20px;
+    padding: 8px 0;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.primary-button {
+    background-color: rgb(33, 109, 215);
+    color: #fff;
+    font-weight: 600;
+}
+
+.primary-button:hover {
+    background-color: rgb(61, 116, 234);
+    transform: scale(1.03);
+    transition: .5s;
+    box-shadow: 1px 3px 8px 1px darkgray;
+    cursor: pointer;
+}
+
+.sign-in-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.sign-in-button object {
+    width: 20px;
+    height: 20px;
+}
+
+.sign-up {
+    color: black;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.sign-up a {
+    text-decoration: none;
+    color: blue;
+}
+
+.sign-up a:hover {
+    text-decoration: underline;
+    text-decoration-color: blue;
+}
+
+#snackbar {
+    visibility: hidden;
+    min-width: 250px;
+    margin-left: -125px;
+    background-color: blue;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    padding: 16px;
+    position: fixed;
+    z-index: 1;
+    left: 50%;
+    top: 50px;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+}
+
+#snackbar.show {
+    visibility: visible;
+    -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+    animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
+
+@-webkit-keyframes fadein {
+    from {
+        top: 0;
+        opacity: 0;
+    }
+
+    to {
+        top: 50px;
+        opacity: 1;
+    }
+}
+
+@keyframes fadein {
+    from {
+        top: 0;
+        opacity: 0;
+    }
+
+    to {
+        top: 50px;
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadeout {
+    from {
+        top: 50px;
+        opacity: 1;
+    }
+
+    to {
+        top: 0;
+        opacity: 0;
+    }
+}
+
+@keyframes fadeout {
+    from {
+        top: 50px;
+        opacity: 1;
+    }
+
+    to {
+        top: 0;
+        opacity: 0;
+    }
+}
