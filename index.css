@@ -89,6 +89,7 @@ nav ul li a:hover {
 .dropdown-info a:hover {
     color: black;
 }
+
 /*  navbar ends  */
 /*  header ends*/
 
@@ -98,6 +99,7 @@ nav ul li a:hover {
     background-color: rgb(232, 242, 244);
     width: 70vw;
     height: 350px;
+    border-radius: 10px;
     margin-top: 4rem;
     margin-left: 14rem;
 }
@@ -111,16 +113,37 @@ nav ul li a:hover {
 .Ticket-Container .Select-Trip {
     display: flex;
     gap: 3rem;
-    padding-top: 2rem;
+    padding-top: 1rem;
     padding-left: 2rem;
     color: rgb(111, 111, 111);
     font-weight: 600;
 }
 
+/*  form source starts  */
+
+#form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .2rem;
+    margin-block: 1.5rem;
+}
+
+#form .form-grp input {
+    padding: 1rem 3rem;
+}
+
+#form .form-grp input::placeholder {
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+/*  form source ends  */
+
 .Concession {
     display: flex;
     gap: 5rem;
-    margin: 8.5rem 0rem 0rem 2rem;
+    margin: 1.8rem 0rem 0rem 2rem;
 }
 
 .Concession .promocode {
@@ -279,6 +302,7 @@ main .prepare-travel-container {
     color: white;
     cursor: pointer;
 }
+
 /*  info ends  */
 /*  main ends */
 
