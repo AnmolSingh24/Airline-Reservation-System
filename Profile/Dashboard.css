@@ -62,24 +62,40 @@ nav ul li a:hover {
     cursor: pointer;
 }
 
-.edit-info {
-    margin: -2.5rem 0rem 0rem 4rem;
+/* Hide the default input appearance */
+.file-input {
+    display: none;
 }
 
-.edit-info svg {
+/* Style the label containing the SVG icon and text */
+.file-label {
     background-color: rgb(58, 58, 250);
-    padding: 6px;
-    border-radius: 30%;
+    display: inline-block;
     cursor: pointer;
+    padding: 5px 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
 }
 
-#sidebar-info p:nth-last-of-type(1){
+/* Position the SVG icon and text */
+.file-icon {
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+    margin-right: 8px;
+}
+
+.file-text {
+    vertical-align: middle;
+}
+
+#sidebar-info p:nth-last-of-type(1) {
     color: black;
     font-weight: 600;
     margin-top: -.8rem;
 }
 
-#sidebar-info p:nth-last-of-type(2){
+#sidebar-info p:nth-last-of-type(2) {
     font-weight: 600;
     margin-top: 1rem;
     color: black;
