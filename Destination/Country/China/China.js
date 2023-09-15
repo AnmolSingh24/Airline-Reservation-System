@@ -49,24 +49,9 @@ const citiesData = [{
     info: "Suzhou is known for its classical Chinese gardens, traditional water towns."
 },
 {
-    img: `/images/China11.jpg`,
-    title: "Terracotta Army",
-    info: "Located in Xi'an, this is a collection of life-size clay soldiers and horses."
-},
-{
-    img: `/images/China12.webp`,
-    title: "The Great Wall of China",
-    info: "The Great Wall stretches over thousands of km."
-},
-{
     img: `/images/China13.jpeg`,
     title: "Yangshuo",
     info: "A small town near Guilin, It is famous for its, karst mountains."
-},
-{
-    img: `/images/China14.jpg`,
-    title: "Yunnan Province",
-    info: "Yunnan is a diverse province in southwestern China."
 },
 {
     img: `/images/China15.jpg`,
