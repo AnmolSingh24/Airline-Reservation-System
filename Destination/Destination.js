@@ -109,7 +109,8 @@ const destinationData = [{
 {
     img: `/images/Destination-Img19.jpg`,
     title: "Mexico",
-    info: "Known for its ancient Mayan and Aztec ruins, colorful traditions, cuisine."
+    info: "Known for its ancient Mayan and Aztec ruins, colorful traditions, cuisine.",
+    url: `/Destination/Country/Mexico/Mexico.html`
 },
 {
     img: `/images/Destination-Img20.jpg`,
