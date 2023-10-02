@@ -86,6 +86,7 @@ main .Info {
     width: 1200px;
     height: 100%;
     margin-left: 10rem;
+    box-shadow: 2px 2px 15px grey;
 }
 
 main .Info h1 {
@@ -161,7 +162,7 @@ main .Info .document2 .visa-info2 a {
 /*  footer starts  */
 footer {
     background-color: rgb(241, 241, 241);
-    height: 700px;
+    height: 600px;
     margin-top: 4rem;
 }
 
