@@ -60,6 +60,9 @@ function SignUpRegister(e) {
     console.log(JSON.stringify(sign2));
     localStorage.setItem("userData", JSON.stringify(sign2));
 
+    //Redirect user to login page
+    window.location = "/Sign/Login/Login.html"
+
     // reset form
     document.getElementById("form").reset();
 
