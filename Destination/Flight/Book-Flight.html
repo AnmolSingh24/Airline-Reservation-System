@@ -5,74 +5,92 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blue Wing Airways - Flight Booking</title>
-    <link rel="stylesheet" href="/Destination/Flight/Book-Flight.css">
+    <link rel="stylesheet" href="Book-Flight.css">
     <link rel="Website Icon" type="png" href="/images/BlueWingAirwaysLogo.png">
 </head>
 
 <body>
+    <div class="flight-booking">
+        <div class="booking-container">
+            <h1>Search Flights</h1>
 
-    <div class="booking-container">
-        <h1>Search Flights</h1>
+            <form id="booking-form">
 
-        <form id="booking-form">
+                <div id="way">
+                    <div class="form-group">
+                        <input id="one" type="radio" name="way" value="oneWay" />
+                        <label for="one">One Way</label>
+                    </div>
 
-            <div class="form-row">
-                <div class="form-group">
-                    <label for="fullname">Fullname:</label>
-                    <input type="text" id="fullname" name="fullname" min="10" maxlength="15" placeholder="Fullname"
-                        required>
+                    <div class="form-group">
+                        <input id="return" type="radio" name="way" value="roundTrip" />
+                        <label for="return">Round Trip</label>
+                    </div>
                 </div>
 
-                <div class="form-group">
-                    <label for="email">Email:</label>
-                    <input type="email" id="email" name="email" placeholder="Email" required>
-                </div>
-            </div>
-
-            <div class="form-row">
-                <div class="form-group">
-                    <label for="departure-date">Departure Date:</label>
-                    <input type="date" id="departure-date" name="departure-date" required>
-                </div>
-
-                <div class="form-group">
-                    <label for="return-date">Return Date:</label>
-                    <input type="date" id="return-date" name="return-date" required>
-                </div>
-            </div>
-
-            <div class="form-row">
-                <div class="form-group">
-                    <label for="from">From:</label>
-                    <input type="text" id="from" name="from" min="10" required>
+                <div class="form-row">
+                    <div class="form-group">
+                      <label for="departure-date">Departure Date:</label>
+                      <input type="date" id="departure-date" name="departure-date" required />
+                    </div>
+            
+                    <div class="form-group">
+                      <label for="return-date">Return Date:</label>
+                      <input type="date" id="return-date" name="return-date" disabled="true" />
+                    </div>
                 </div>
 
-                <div class="form-group">
-                    <label for="to">To:</label>
-                    <input type="text" id="to" name="to" min="10" required>
-                </div>
-            </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="from">From:</label>
+                        <input type="text" id="from" name="from" min="10" required>
+                    </div>
 
-            <div class="form-row">
-                <div class="form-group">
-                    <label for="adult">Adults:</label>
-                    <input type="number" id="adult" name="adult" min="1" placeholder="Adults" required>
-                </div>
-
-                <div class="form-group">
-                    <label for="child">Child:</label>
-                    <input type="number" id="child" name="child" min="1" placeholder="Child" required>
+                    <div class="form-group">
+                        <label for="to">To:</label>
+                        <input type="text" id="to" name="to" min="10" required>
+                    </div>
                 </div>
 
-            </div>
+                <div class="passengers">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="adult">Adult:</label>
+                            <input type="text" id="adult" name="adult" min="10" required>
+                        </div>
 
-            <button type="submit">Search Flights</button>
-            <div id="snackbar">✅ Flight Booked Successfully</div>
-        </form>
+                        <div class="form-group">
+                            <label for="child">Child:</label>
+                            <input type="text" id="child" name="child" min="10" required>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <select name="flight-class" id="flight-class">
+                                <option value="Please Select">Select Class</option>
+                                <option value="Economy">Economy</option>
+                                <option value="Premium Economy">Premium Economy</option>
+                                <option value="Business">Business</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+
+                <button type="submit" onclick="showAvailability()" id="search-btn">Search Flights</button>
+            </form>
+        </div>
+
+        <!-- flight availability starts -->
+        <div class="flight-result">
+            <div class="flight-data" id="fligt-info"></div>
+        </div>
+        <!-- flight availability ends -->
     </div>
 
     <!--  script starts  -->
     <script src="Book-Flight.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
     <!--  script ends  -->
 </body>
 
