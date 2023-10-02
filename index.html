@@ -29,29 +29,20 @@
             <ul>
                 <li><a href="/">HOME</a></li>
                 <li><a href="/Destination/Destination.html">DESTINATIONS</a></li>
+                <li><a href="/Destination/Flight/Book-Flight.html">BOOK FLIGHTS</a></li>
                 <li><a href="/Hotels/Hotels.html">HOTELS</a></li>
-                <li><a href="/Check/Check-In.html">CHECK-IN</a></li>
-                <li><a href="/My-Trips/Trips.html">MY TRIPS</a></li>
+                <li><a href="/E-Tickets/Tickets.html">E-TICKET</a></li>
                 <li><a href="/Flight-Status/Status.html">FLIGHT STATUS</a></li>
                 <li><a href="/Tour/Tour.html">TOUR INFO</a></li>
-                <li><a href="/Support/Help/Help.html">SUPPORT</a></li>
+                <li><a href="/Support/Support.html">SUPPORT</a></li>
                 <li><a href="/Sign/Login/Login.html">LOGIN</a></li>
-                <li>
+                <li id="icon">
                     <div class="chats-info-dropdown">
-                        <svg style="color: rgb(4, 114, 249);" xmlns="http://www.w3.org/2000/svg" width="20" height="20"
-                            fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
-                            <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3Zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z" />
-                        </svg>
-
-                        <div class="dropdown-content">
-                            <div class="dropdown-info">
-                                <a href="/Profile/Dashboard.html">Your Profile</a>
-                            </div>
-
-                            <div class="dropdown-info">
-                                <a href="/Support/Help/Help.html">Contact</a>
-                            </div>
-                        </div>
+                        <a href="/Profile/Dashboard.html"><svg style="color: rgb(4, 114, 249);"
+                                xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                                class="bi bi-person-fill" viewBox="0 0 16 16">
+                                <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3Zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z" />
+                            </svg></a>
                     </div>
                 </li>
             </ul>
@@ -74,28 +65,27 @@
                     <div id="myCarousel" class="carousel slide" data-ride="carousel">
                         <!-- Indicators -->
                         <ul class="carousel-indicators">
-                            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                            <li data-target="#myCarousel" data-slide-to="1"></li>
+                            <li data-target="#myCarousel" data-slide-to="1" class="active"></li>
                             <li data-target="#myCarousel" data-slide-to="2"></li>
                             <li data-target="#myCarousel" data-slide-to="3"></li>
+                            <li data-target="#myCarousel" data-slide-to="4"></li>
                         </ul>
 
                         <!-- The slideshow -->
                         <div class="carousel-inner">
                             <div class="carousel-item active">
-                                <img src="./images/Carasuel-1" height="100%" width="100%" alt="Slide 1">
+                                <img src="./images/Carasuel-1" height="100%" width="100%" alt="Slide 2">
                             </div>
                             <div class="carousel-item">
-                                <img src="./images/Carasuel-2" height="100%" width="100%" alt="Slide 2">
+                                <img src="./images/Carasuel-2" height="100%" width="100%" alt="Slide 3">
                             </div>
                             <div class="carousel-item">
-                                <img src="./images/Carasuel-3" height="100%" width="100%" alt="Slide 2">
+                                <img src="./images/Carasuel-3" height="100%" width="100%" alt="Slide 4">
                             </div>
                             <div class="carousel-item">
-                                <img src="./images/Carasuel-4" height="100%" width="100%" alt="Slide 2">
+                                <img src="./images/Carasuel-4.webp" height="100%" width="100%" alt="Slide 5">
                             </div>
                         </div>
-
                         <!-- Left and right controls -->
                         <a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
                             <span class="carousel-control-prev-icon"></span>
@@ -108,63 +98,6 @@
             </div>
         </div>
         <!--  carousel image ends-->
-        <!--  book ticket starts  -->
-        <div class="Ticket-Container">
-            <h1>Book Tickets</h1>
-
-            <div class="Select-Trip">
-                <div>
-                    <input id="one" type="radio" name="way">
-                    <label for="one">One Way</label>
-                </div>
-
-                <div>
-                    <input id="return" type="radio" name="way">
-                    <label for="return">Return</label>
-                </div>
-            </div>
-
-            <!--  form starts  -->
-            <form id="form">
-                <div class="form-grp">
-                    <label for="">Source</label><br>
-                    <input type="text" placeholder="Source">
-                </div>
-
-                <div class="form-grp">
-                    <label for="">Destination</label><br>
-                    <input type="text" placeholder="Destination">
-                </div>
-
-                <div class="form-grp">
-                    <label for="">From</label><br>
-                    <input type="date">
-                </div>
-
-                <div class="form-grp">
-                    <label for="">To</label><br>
-                    <input type="date">
-                </div>
-            </form>
-            <!--  form ends  -->
-
-            <div class="Concession">
-                <div class="promocode">
-                    <h4>Add promocode</h4>
-                    <div>
-                        <svg style="color:blue;" xmlns="http://www.w3.org/2000/svg" width="20" height="20"
-                            fill="currentColor" class="bi bi-info-circle" viewBox="0 0 16 16">
-                            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
-                            <path
-                                d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z" />
-                        </svg>
-                    </div>
-                </div>
-
-                <button>SHOW FLIGHTS</button>
-            </div>
-        </div>
-        <!--  book ticket ends  -->
 
         <!--  Travel precations starts  -->
         <div class="prepare-travel-container">
