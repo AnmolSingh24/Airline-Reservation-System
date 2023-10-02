@@ -56,7 +56,7 @@ async function flightAvailability(departureDate, returnDate, from, to, adult, ch
     const options = {
         method: "GET",
         headers: {
-            "X-RapidAPI-Key": "90880c466fmsh55535d16857aaa7p10537djsn1cf53640d53f",
+            "X-RapidAPI-Key": "92a9b621bdmsh62b28a1097f16fbp161c23jsna1e25382fba9",
             "X-RapidAPI-Host": "flight-fare-search.p.rapidapi.com",
         },
     };
