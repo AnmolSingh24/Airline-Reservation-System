@@ -62,33 +62,6 @@ nav ul li a:hover {
     cursor: pointer;
 }
 
-/* Hide the default input appearance */
-.file-input {
-    display: none;
-}
-
-/* Style the label containing the SVG icon and text */
-.file-label {
-    background-color: rgb(58, 58, 250);
-    display: inline-block;
-    cursor: pointer;
-    padding: 5px 8px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-}
-
-/* Position the SVG icon and text */
-.file-icon {
-    width: 16px;
-    height: 16px;
-    vertical-align: middle;
-    margin-right: 8px;
-}
-
-.file-text {
-    vertical-align: middle;
-}
-
 #sidebar-info p:nth-last-of-type(1) {
     color: black;
     font-weight: 600;
