@@ -1,7 +1,6 @@
 const login = (e) => {
     e.preventDefault();
     var users = JSON.parse(localStorage.getItem("userData")) || [];
-    console.log(users);
     const loginUsername = document.getElementById("username");
     const loginPassword = document.getElementById("password");
     let userFound;
@@ -12,7 +11,6 @@ const login = (e) => {
             userFound = user; break;
         }
     }
-    console.log(userFound);
     if (userFound) {
 
         var msg = document.getElementById("snackbar");
